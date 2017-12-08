@@ -1,0 +1,9 @@
+rofi.fullscreen: true
+rofi.padding: 300
+
+!                      bg        fg      bgalt      hlbg     hlfg
+rofi.color-normal: #002f3437, #f3f4f5, #002f3437, #00585c65, #e62517
+rofi.color-active: #002f3437, #f3f4f5, #002f3437, #00585c65, #e62517
+rofi.color-urgent: #002f3437, #f3f4f5, #002f3437, #00585c65, #e62517
+!                      bg      border     sep
+rofi.color-window: #992f3437, #2f3437, #002f3437
