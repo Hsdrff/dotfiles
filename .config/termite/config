@@ -1,3 +1,24 @@
 [options]
 font = FontAwesome 7
 font = Hermit 9
+
+[colors]
+foreground = #eeb771
+background = rgba(0, 0, 0, 0.8)
+cursor = #c85133
+color0 = #0a0914
+color1 = #be4d60
+color2 = #d008e3
+color3 = #bc3aae
+color4 = #b08d11
+color5 = #c38615
+color6 = #d87c25
+color7 = #edc5dc
+color8 = #1c1838
+color9 = #d17886
+color10 = #e82ff9
+color11 = #d162c5
+color12 = #e8ba16
+color13 = #e9a72d
+color14 = #e49b55
+color15 = #fcf3f8
