@@ -1,0 +1,8 @@
+#!/bin/bash
+
+light=$(xbacklight -get)
+if [ $(echo "$light > 50" | bc -l) -eq 1 ]; then
+  xbacklight -set 10
+else
+  xbacklight -set 100
+fi
