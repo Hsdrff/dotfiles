@@ -189,19 +189,19 @@ bar {
 bindsym $mod+shift+x exec /home/tzimmo/bin/lockme
 
 # Assign fixed workspace to a program
-assign [class="Evince"] $ws2
-assign [class="Firefox"] $ws3
-assign [class="Thunderbird"] $ws4
-assign [class="Telegram"] $ws5
-assign [class="Rhythmbox"] $ws6
+# assign [class="Evince"] $ws2
+# assign [class="Firefox"] $ws3
+# assign [class="Thunderbird"] $ws4
+# assign [class="Telegram"] $ws5
+# assign [class="Rhythmbox"] $ws6
 
 # Auto-start programs
-exec /usr/bin/xfce4-terminal
-exec /usr/bin/evince
-exec /usr/bin/firefox
-exec /usr/bin/thunderbird
-exec /home/tzimmo/bin/Telegram
-exec /usr/bin/rhythmbox
+# exec /usr/bin/xfce4-terminal
+# exec /usr/bin/evince
+# exec /usr/bin/firefox
+# exec /usr/bin/thunderbird
+# exec /home/tzimmo/bin/Telegram
+# exec /usr/bin/rhythmbox
 
 # No urgency at startup
 exec /home/tzimmo/bin/nourgency
