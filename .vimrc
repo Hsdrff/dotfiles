@@ -58,6 +58,7 @@ set t_Co=256
 set modelines=1
 set modeline
 set so=7
+cmap w!! w !sudo tee > /dev/null %
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
