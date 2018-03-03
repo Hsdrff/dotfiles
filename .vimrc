@@ -54,6 +54,12 @@ set laststatus=2
 set t_Co=256
 " }}}
 
+" LaTeX suite {{{
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor = "xetex"
+set runtimepath=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
+" }}}
+
 " Diversities {{{
 set modelines=1
 set modeline

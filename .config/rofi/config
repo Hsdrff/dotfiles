@@ -1,5 +1,6 @@
-rofi.fullscreen: true
-rofi.padding: 300
+rofi.location: 2
+rofi.yoffset: 90
+rofi.lines: 6
 
 !                      bg        fg      bgalt      hlbg     hlfg
 rofi.color-normal: #002f3437, #f3f4f5, #002f3437, #00585c65, #e62517

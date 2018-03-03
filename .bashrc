@@ -122,3 +122,5 @@ then
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi
 alias config='/usr/bin/git --git-dir=/home/tzimmo/.cfg/ --work-tree=/home/tzimmo'
+
+export VISUAL="vim"

@@ -210,7 +210,7 @@ exec compton -f
 exec feh --bg-fill /home/tzimmo/wallpapers/current/wallpaper.jpg
 
 # Keyboard layout
-exec setxkbmap de nodeadkeys
+exec setxkbmap de nodeadkeys -option compose:paus
 
 # Keyboard volume control
 bindsym shift+F12 exec --no-startup-id pactl set-sink-volume 0 +5%
@@ -224,3 +224,6 @@ bindsym shift+F7 exec /home/tzimmo/bin/togglelight
 
 # Toggle trackpad
 bindsym shift+F9 exec /home/tzimmo/bin/toggletouchpad
+
+# Start redshift
+exec redshift -l 59.3:18.1 -t 5700:3200 -m randr
