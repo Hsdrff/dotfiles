@@ -10,11 +10,11 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Colour definitions
-set $bg_color         #1c1838
-set $inact_bg_color   #1c1838
-set $text_color       #eeb771
-set $inact_text_color #bc3aae
-set $urgent_bg_color  #c85133
+set $bg_color         #131e2d
+set $inact_bg_color   #131e2d
+set $text_color       #f7bfff
+set $inact_text_color #9a54a7
+set $urgent_bg_color  #0492f0
 
 set $mod Mod4
 
@@ -224,6 +224,9 @@ bindsym shift+F7 exec /home/tzimmo/bin/togglelight
 
 # Toggle trackpad
 bindsym shift+F9 exec /home/tzimmo/bin/toggletouchpad
+
+# Lock screen
+bindsym $mod+p exec /home/tzimmo/bin/lockme
 
 # Start redshift
 exec redshift -l 59.3:18.1 -t 5700:3200 -m randr
